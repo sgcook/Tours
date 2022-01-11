@@ -19,7 +19,7 @@ function App() {
     try {
       const response = await fetch(url);
       const tours = await response.json();
-      setLoading(true);
+      setLoading(false);
       setTours(tours);
     } catch (error) {
       setLoading(false);
@@ -31,10 +31,20 @@ function App() {
     fetchTours();
   }, []);
 
+  useEffect(() => {
+    document.body.style.backgroundColor = getRandomColor();
+  }, []);
+
+  const getRandomColor = () => {
+    return "#" + Math.random().toString(16).slice(2, 8);
+  };
+
   if (loading) {
     return (
       <main>
-        <Loading />
+        <div className="containImage">
+          <Loading />
+        </div>
       </main>
     );
   }

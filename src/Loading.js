@@ -2,6 +2,7 @@ import React from "react";
 import loadingTime from "./loading-time.jpg";
 
 const Loading = () => {
+
   return (
     <div className="loading">
       <img

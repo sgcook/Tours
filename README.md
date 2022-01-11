@@ -13,7 +13,6 @@ Clicking refresh returns all of the tours to the app.
 style.css was copied from the tutorial.
 
 ## My personal tweaks:
-
+-Background color to app changes randomly with each refresh.
 - Replaced "Loading..." text with a loading image.
-- Gotcha: main width was set to 90vw. Used left: calc(-50vw + 50%) to make image large and center/
-- Gotcha: hiding overflow of Loading page without hiding overflow of main page.
+- Gotcha: main width was set to 90vw. Used left: calc(-50vw + 50%) to make image large and center.
