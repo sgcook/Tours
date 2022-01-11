@@ -14,6 +14,6 @@ style.css was copied from the tutorial.
 
 ## My personal tweaks:
 
-Replaced "Loading..." text with a loading image.
-Gotcha: main width was set to 90vw. Used left: calc(-50vw + 50%) to make image large and center/
-Gotcha: hiding overflow of Loading page without hiding overflow of main page.
+- Replaced "Loading..." text with a loading image.
+- Gotcha: main width was set to 90vw. Used left: calc(-50vw + 50%) to make image large and center/
+- Gotcha: hiding overflow of Loading page without hiding overflow of main page.
