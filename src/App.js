@@ -19,7 +19,10 @@ function App() {
     try {
       const response = await fetch(url);
       const tours = await response.json();
-      setLoading(false);
+      setLoading(true);
+      setTimeout(() => {
+        setLoading(false);
+      }, 1000);
       setTours(tours);
     } catch (error) {
       setLoading(false);

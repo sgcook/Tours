@@ -17,3 +17,4 @@ style.css was copied from the tutorial.
 - Background color to app changes randomly with each refresh.
 - Replaced "Loading..." text with a loading image.
 - Gotcha: main width was set to 90vw. Used left: calc(-50vw + 50%) to make image large and center.
+- Used setTimeout on loading page.
